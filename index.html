@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Bill Split App</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <div class="display">
+        <h1>Each person pays</h1>
+        <h1 id="each">$0</h1>
+      </div>
+
+      <input type="number" id="bill" placeholder="Enter total bill" value="" />
+      <input type="number" id="split" placeholder="Enter group size" value="" />
+      <button>Calculate</button>
+      <button>Reset</button>
+      <h2></h2>
+    </section>
+  </body>
+</html>
